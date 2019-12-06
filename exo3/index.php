@@ -21,7 +21,7 @@ $gender = "femme";
 if (($gender == "femme" OR $gender == "homme") AND $age >= 18) {
   echo 'Vous êtes un '.$gender.' et vous êtes majeur';
 }
-elseif (($gender == "homme" OR $gender =="femme") AND $age <= 18) {
+elseif (($gender == "homme" OR $gender =="femme") AND $age < 18) {
   echo 'Vous êtes un '.$gender.' et vous êtes mineur';
 }
  ?>

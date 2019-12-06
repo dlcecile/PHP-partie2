@@ -1,5 +1,5 @@
 <?php
-$page = "exercice5";
+$page = "exercice6";
 include '../header.php';
 ?>
 <?php

@@ -1,13 +1,13 @@
 <?php
-$page = "exercice5";
+$page = "exercice8";
 include '../header.php';
 ?>
 <?php
-$isok = NULL ;
+$isok = false;
 if ($isok) {
   echo "C'est bon";
 }
-elseif ($isok == NULL) {
+else {
   echo "C'est pas bon";
 }
  ?>

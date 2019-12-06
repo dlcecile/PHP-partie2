@@ -36,10 +36,10 @@
           <a class="nav-link  col-2" href="http://phppartie2exo6.com/">Exo6</a>
         </li>
         <li class="nav-item  col-2">
-          <a class="nav-link  col-2" href="#">Exo7</a>
+          <a class="nav-link  col-2" href="http://phppartie2exo7.com/">Exo7</a>
         </li>
         <li class="nav-item  col-2">
-          <a class="nav-link  col-2" href="#">Exo8</a>
+          <a class="nav-link  col-2" href="http://phppartie2exo8.com/">Exo8</a>
         </li>
       </ul>
     </div>
