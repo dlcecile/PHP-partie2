@@ -1,16 +1,16 @@
 <?php
-$page = "exercice7";
-include '../header.php';
+  $page = 'exercice7';
+  include '../header.php';
+  $result = '';
+  $isok = false;
+  if (!$isok) {
+    $result = 'C\'est pas bon';
+  }
+  else {
+    $result = 'C\'est ok';
+  }
 ?>
-<?php
-$isok= False;
-if ($isok == False) {
-  echo "C'est pas bon";
-}
-else {
-  echo "C'est ok";
-}
- ?>
+<p><?= $result ?></p>
 <?php
 include '../footer.php';
  ?>

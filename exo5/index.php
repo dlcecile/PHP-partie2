@@ -1,16 +1,16 @@
 <?php
-$page = "exercice5";
-include '../header.php';
+  $page = 'exercice5';
+  include '../header.php';
+  $gender = 'femme';
+  $result = '';
+  if ($gender != 'homme') {
+    $result = 'C\'est une développeuse';
+  }
+  else {
+    $result = 'C\'est un développeur';
+  }
 ?>
-<?php
-$gender= "femme";
-if ($gender != "homme") {
-  echo "C'est une développeuse";
-}
-else {
-  echo "c'est un développeur";
-}
- ?>
+<p><?= $result ?></p>
 <?php
 include '../footer.php';
  ?>
